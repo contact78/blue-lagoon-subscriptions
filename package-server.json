@@ -1,0 +1,19 @@
+{
+  "name": "blue-lagoon-subscriptions",
+  "version": "1.0.0",
+  "description": "Serveur pour gérer les abonnements Blue Lagoon - HubSpot + Stripe",
+  "main": "subscription-server.js",
+  "scripts": {
+    "start": "node subscription-server.js",
+    "dev": "nodemon subscription-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
